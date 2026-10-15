@@ -1,0 +1,49 @@
+{
+ "n_messages": 16,
+ "draws_per_message": 300,
+ "policies": {
+  "oracle": {
+   "avg_reward": 0.9414374999999999,
+   "success_rate": 0.7714583333333334,
+   "avg_energy": 0.8107708333333333,
+   "avg_payload_bytes": 50.297291666666666
+  },
+  "linucb": {
+   "avg_reward": 0.8327708333333333,
+   "success_rate": 0.774375,
+   "avg_energy": 0.8794583333333332,
+   "avg_payload_bytes": 58.673541666666665
+  },
+  "bit": {
+   "avg_reward": 0.8666666666666667,
+   "success_rate": 0.7989583333333333,
+   "avg_energy": 1.0,
+   "avg_payload_bytes": 64.3125
+  },
+  "semantic": {
+   "avg_reward": -1.925,
+   "success_rate": 0.415625,
+   "avg_energy": 0.5999999999999999,
+   "avg_payload_bytes": 53.3125
+  },
+  "compressed": {
+   "avg_reward": -2.049166666666667,
+   "success_rate": 0.3047916666666667,
+   "avg_energy": 0.35,
+   "avg_payload_bytes": 16.25
+  },
+  "threshold": {
+   "avg_reward": -0.12052083333333331,
+   "success_rate": 0.6427083333333333,
+   "avg_energy": 0.7885000000000001,
+   "avg_payload_bytes": 52.366458333333334
+  }
+ },
+ "grid_agreement_with_oracle": 0.78125,
+ "grid_success_rate": 0.765625,
+ "mode_counts_grid": {
+  "bit": 52,
+  "semantic": 12,
+  "compressed_semantic": 0
+ }
+}
